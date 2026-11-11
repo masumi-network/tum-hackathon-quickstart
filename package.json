@@ -14,7 +14,10 @@
   "dependencies": {
     "eve": "0.71.0",
     "ai": "7.0.127",
-    "zod": "4.6.5",
+    "zod": "4.6.7",
     "@ai-sdk/openai-compatible": "3.0.62"
+  },
+  "overrides": {
+    "undici@8.10.2": "8.12.3"
   }
 }
